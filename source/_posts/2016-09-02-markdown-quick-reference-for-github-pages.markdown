@@ -8,26 +8,6 @@ categories:
 
 Below are the basic syntaxes for writing [markdown](https://en.wikipedia.org/wiki/Markdown) pages.
 
-
-### Headings
-
-```
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-```
-
-> # Heading 1
-
-> ## Heading 2
-
-> ### Heading 3
-
-> #### Heading 4
-
-<hr>
-
 ### Highlighting
 
 ```
@@ -75,6 +55,8 @@ _Emphasis_
 		2. nested sub list item 2
 ```
 
+<!--more-->
+
 1. list item 1
 2. list item 2
 	1. sub list item 1
@@ -104,6 +86,24 @@ _Emphasis_
 
 > * Quoted 
 > * List
+
+
+### Headings
+
+```
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+```
+
+> # Heading 1
+
+> ## Heading 2
+
+> ### Heading 3
+
+> #### Heading 4
 
 ### Code
 To display code in Maadrkdown
