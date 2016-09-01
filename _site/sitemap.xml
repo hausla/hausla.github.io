@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://techtaste.in/blog/2016/09/02/markdown-quick-reference-for-github-pages/</loc>
+<lastmod>2016-09-02T00:09:06+05:30</lastmod>
+</url>
+<url>
+<loc>http://techtaste.in/blog/2016/09/01/hello-world/</loc>
+<lastmod>2016-09-01T23:04:24+05:30</lastmod>
+</url>
+<url>
+<loc>http://techtaste.in/</loc>
+</url>
+<url>
+<loc>http://techtaste.in/blog/archives/</loc>
+</url>
+<url>
+<loc>http://techtaste.in/blog/categories/my-category/</loc>
+</url>
+<url>
+<loc>http://techtaste.in/blog/categories/other-category/</loc>
+</url>
+</urlset>
