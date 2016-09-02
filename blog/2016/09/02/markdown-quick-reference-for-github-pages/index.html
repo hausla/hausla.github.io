@@ -109,227 +109,216 @@ _Emphasis_ bold bold Emphasis Emphasis &hellip;">
 
 <div class="entry-content"><p>Below are the basic syntaxes for writing <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> pages.</p>
 
-<h3>Highlighting</h3>
+<h3 id="highlighting">Highlighting</h3>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>**bold**
-</span><span class='line'>__bold__
-</span><span class='line'>
-</span><span class='line'>*Emphasis*
-</span><span class='line'>_Emphasis_</span></code></pre></td></tr></table></div></figure>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">**bold**
+</span><span class="line">__bold__
+</span><span class="line">
+</span><span class="line">*Emphasis*
+</span><span class="line">_Emphasis_</span></code></pre></td></tr></table></div></figure>
 
+<blockquote>
+  <p><strong>bold</strong></p>
+</blockquote>
 
-<blockquote><p><strong>bold</strong></p>
+<blockquote>
+  <p><strong>bold</strong></p>
+</blockquote>
 
-<p><strong>bold</strong></p>
+<blockquote>
+  <p><em>Emphasis</em></p>
+</blockquote>
 
-<p><em>Emphasis</em></p>
+<blockquote>
+  <p><em>Emphasis</em></p>
+</blockquote>
 
-<p><em>Emphasis</em></p></blockquote>
+<h3 id="lists">Lists</h3>
 
-<h3>Lists</h3>
-
-<h4>Unordered List</h4>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>* list item 1
-</span><span class='line'>* list item 2
-</span><span class='line'>  * sub list item 1
-</span><span class='line'>  * sub list item 2
-</span><span class='line'>      * nested sub list item 1
-</span><span class='line'>      * nested sub list item 2</span></code></pre></td></tr></table></div></figure>
-
-
+<h4 id="unordered-list">Unordered List</h4>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">* list item 1
+</span><span class="line">* list item 2
+</span><span class="line">	* sub list item 1
+</span><span class="line">	* sub list item 2
+</span><span class="line">		* nested sub list item 1
+</span><span class="line">		* nested sub list item 2</span></code></pre></td></tr></table></div></figure>
 <ul>
-<li>list item 1</li>
-<li>list item 2
-
-<ul>
-<li>sub list item 1</li>
-<li>sub list item 2
-
-<ul>
-<li>nested sub list item 1</li>
-<li>nested sub list item 2</li>
-</ul>
-</li>
-</ul>
-</li>
+  <li>list item 1</li>
+  <li>list item 2
+    <ul>
+      <li>sub list item 1</li>
+      <li>sub list item 2
+        <ul>
+          <li>nested sub list item 1</li>
+          <li>nested sub list item 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
-
-<h4>Ordered List</h4>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>1. list item 1
-</span><span class='line'>2. list item 2
-</span><span class='line'>  1. sub list item 1
-</span><span class='line'>  2. sub list item 2
-</span><span class='line'>      1. nested sub list item 1
-</span><span class='line'>      2. nested sub list item 2</span></code></pre></td></tr></table></div></figure>
-
-
-
+<h4 id="ordered-list">Ordered List</h4>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">1. list item 1
+</span><span class="line">2. list item 2
+</span><span class="line">	1. sub list item 1
+</span><span class="line">	2. sub list item 2
+</span><span class="line">		1. nested sub list item 1
+</span><span class="line">		2. nested sub list item 2</span></code></pre></td></tr></table></div></figure>
 
 <!--more-->
 
-
 <ol>
-<li>list item 1</li>
-<li>list item 2
-
-<ol>
-<li>sub list item 1</li>
-<li>sub list item 2
-
-<ol>
-<li>nested sub list item 1</li>
-<li>nested sub list item 2</li>
-</ol>
-</li>
-</ol>
-</li>
+  <li>list item 1</li>
+  <li>list item 2
+    <ol>
+      <li>sub list item 1</li>
+      <li>sub list item 2
+        <ol>
+          <li>nested sub list item 1</li>
+          <li>nested sub list item 2</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
 </ol>
 
+<h3 id="quoted-text">Quoted text</h3>
 
-<h3>Quoted text</h3>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">&gt; Quoted text.
+</span><span class="line">&gt; &gt; Quoted text within another quoted text.</span></code></pre></td></tr></table></div></figure>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>&gt; Quoted text.
-</span><span class='line'>&gt; &gt; Quoted text within another quoted text.</span></code></pre></td></tr></table></div></figure>
-
-
-<blockquote><p>Quoted text.</p>
-
-<blockquote><p>Quoted text within another quoted text.</p></blockquote></blockquote>
-
-<h3>List items quoted text</h3>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>&gt; * Quoted 
-</span><span class='line'>&gt; * List</span></code></pre></td></tr></table></div></figure>
-
-
-<blockquote><ul>
-<li>Quoted</li>
-<li>List</li>
-</ul>
+<blockquote>
+  <p>Quoted text.</p>
 </blockquote>
 
-<h3>Headings</h3>
+<blockquote>
+  <blockquote>
+    <p>Quoted text within another quoted text.</p>
+  </blockquote>
+</blockquote>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'># Heading 1
-</span><span class='line'>## Heading 2
-</span><span class='line'>### Heading 3
-</span><span class='line'>#### Heading 4</span></code></pre></td></tr></table></div></figure>
+<h3 id="list-items-quoted-text">List items quoted text</h3>
 
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">&gt; * Quoted 
+</span><span class="line">&gt; * List</span></code></pre></td></tr></table></div></figure>
 
-<blockquote><h1>Heading 1</h1>
+<blockquote>
+  <ul>
+    <li>Quoted</li>
+    <li>List</li>
+  </ul>
+</blockquote>
 
-<h2>Heading 2</h2>
+<h3 id="headings">Headings</h3>
 
-<h3>Heading 3</h3>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+</pre></td><td class="code"><pre><code class=""><span class="line"># Heading 1
+</span><span class="line">## Heading 2
+</span><span class="line">### Heading 3
+</span><span class="line">#### Heading 4</span></code></pre></td></tr></table></div></figure>
 
-<h4>Heading 4</h4></blockquote>
+<blockquote>
+  <h1 id="heading-1">Heading 1</h1>
+</blockquote>
 
-<h3>Code</h3>
+<blockquote>
+  <h2 id="heading-2">Heading 2</h2>
+</blockquote>
 
+<blockquote>
+  <h3 id="heading-3">Heading 3</h3>
+</blockquote>
+
+<blockquote>
+  <h4 id="heading-4">Heading 4</h4>
+</blockquote>
+
+<h3 id="code">Code</h3>
 <p>To display code in Maadrkdown</p>
 
-<pre class="highlight">
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>public static void main(String arg[]) {
-</span><span class='line'>  System.out.println("Hello world"); 
-</span><span class='line'>}</span></code></pre></td></tr></table></div></figure></pre>
-
-
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>public static void main(String arg[]) {
-</span><span class='line'>  System.out.println("Hello world"); 
-</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Note: symbol <code>`</code> is known as Grave. Which can be found above the <code>Tab</code> button in Keyboard.
-For every code block you should</p>
-
-<blockquote><p>you can also 4 ~ (tilde) symbol at the begining and end of the code to display code as below</p></blockquote>
-
-<pre class="highlight">
-~~~~
+<pre><code>```
 public static void main(String arg[]) {
   System.out.println("Hello world"); 
 }
-~~~~
-</pre>
+```
+</code></pre>
 
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">public static void main(String arg[]) {
+</span><span class="line">  System.out.println("Hello world"); 
+</span><span class="line">}</span></code></pre></td></tr></table></div></figure>
+<p>Note: symbol <code>`</code> is known as Grave. Which can be found above the <code>Tab</code> button in Keyboard.<br />
+For every code block you should</p>
 
-<h3>Highlight Code</h3>
+<blockquote>
+  <p>you can also 4 ~ (tilde) symbol at the begining and end of the code to display code as below</p>
+</blockquote>
+
+<pre><code>public static void main(String arg[]) {
+  System.out.println("Hello world"); 
+}
+</code></pre>
+
+<h3 id="highlight-code">Highlight Code</h3>
 
 <p>The below is the syntax to highlight java code</p>
 
-<pre class="highlight">
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">arg</span><span class="o">[])</span> <span class="o">{</span>
-</span><span class='line'>  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello world&quot;</span><span class="o">);</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure></pre>
+<pre><code>``` java
+public static void main(String arg[]) {
+  System.out.println("Hello world"); 
+}
+```
+</code></pre>
 
-
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">arg</span><span class="o">[])</span> <span class="o">{</span>
-</span><span class='line'>  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello world&quot;</span><span class="o">);</span>
-</span><span class='line'><span class="o">}</span>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="java"><span class="line"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">arg</span><span class="o">[])</span> <span class="o">{</span>
+</span><span class="line">  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello world&quot;</span><span class="o">);</span>
+</span><span class="line"><span class="o">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
+<h3 id="links">Links</h3>
 
-<h3>Links</h3>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">syntax</span> <span class="o">:</span>
-</span><span class='line'><span class="o">[</span><span class="n">LinkName</span><span class="o">](</span><span class="n">url</span><span class="o">)</span>
-</span><span class='line'>
-</span><span class='line'><span class="n">e</span><span class="o">.</span><span class="na">g</span><span class="o">.</span>
-</span><span class='line'><span class="o">[</span><span class="n">wiki</span><span class="o">](</span><span class="nl">https:</span><span class="c1">//en.wikipedia.org/wiki/Main_Page)</span>
-</span><span class='line'><span class="o">[</span><span class="n">google</span><span class="o">](</span><span class="nl">https:</span><span class="c1">//google.com)</span>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="java"><span class="line"><span class="n">syntax</span> <span class="o">:</span>
+</span><span class="line"><span class="o">[</span><span class="n">LinkName</span><span class="o">](</span><span class="n">url</span><span class="o">)</span>
+</span><span class="line">
+</span><span class="line"><span class="n">e</span><span class="o">.</span><span class="na">g</span><span class="o">.</span>
+</span><span class="line"><span class="o">[</span><span class="n">wiki</span><span class="o">](</span><span class="nl">https:</span><span class="c1">//en.wikipedia.org/wiki/Main_Page)</span>
+</span><span class="line"><span class="o">[</span><span class="n">google</span><span class="o">](</span><span class="nl">https:</span><span class="c1">//google.com)</span>
 </span></code></pre></td></tr></table></div></figure>
-
 
 <p>Links to wiki and google pages</p>
 
@@ -337,8 +326,7 @@ public static void main(String arg[]) {
 
 <p><a href="https://google.com">google</a></p>
 
-<h3>Reference link</h3>
-
+<h3 id="reference-link">Reference link</h3>
 <pre><code>
 Unlike Normal links(previous example), the syntax for this
 
@@ -348,167 +336,169 @@ In here same thing can be achieved with below code
 
 [google] [1]
 
+[1]: https://google.com
+
+
 Usually reference links are used within a paragraph. 
 e.g.
 
 [Techtaste] [1] is my site, which is hosted on [github] [2] pages. [Jekyll] [3] used for generating this site.
-</code></pre>
 
+[1]: http://techtaste.in "Get hands on techs"
+[2]: https://github.com/Raghavendrak555 "github link"
+[3]: https://jekyllrb.com/ "Learn Jekyll"
+
+</code></pre>
 <p>output of the above example</p>
 
-<blockquote><p><a href="http://techtaste.in" title="Get hands on techs">Techtaste</a> is my site, which is hosted on <a href="https://github.com/Raghavendrak555" title="github link">github</a> pages. <a href="https://jekyllrb.com/" title="Learn Jekyll">Jekyll</a> used for generating this site.</p></blockquote>
+<blockquote>
+  <p><a href="http://techtaste.in" title="Get hands on techs">Techtaste</a> is my site, which is hosted on <a href="https://github.com/Raghavendrak555" title="github link">github</a> pages. <a href="https://jekyllrb.com/" title="Learn Jekyll">Jekyll</a> used for generating this site.</p>
+</blockquote>
 
 <hr />
 
-<h3>Table</h3>
-
+<h3 id="table">Table</h3>
 <p>Please refer this <a href="http://techtaste.in" title="Get hands on techs">post</a> for creating tables.</p>
 
 <p>The below is sample example to show how to create a table in Markdown.</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="o">|</span> <span class="n">Tables</span>          <span class="o">|</span>      <span class="n">Are</span>      <span class="o">|</span>  <span class="n">Cool</span>            <span class="o">|</span>
-</span><span class='line'><span class="o">|:----------------|:-------------:|-----------------:|</span>
-</span><span class='line'><span class="o">|</span> <span class="n">left</span> <span class="n">aligned</span>    <span class="o">|</span>   <span class="n">centered</span>    <span class="o">|</span>    <span class="n">right</span><span class="o">-</span><span class="n">aligned</span> <span class="o">|</span>
-</span><span class='line'><span class="o">|</span> <span class="n">left</span> <span class="n">aligned</span>    <span class="o">|</span>   <span class="n">centered</span>    <span class="o">|</span>    <span class="n">right</span><span class="o">-</span><span class="n">aligned</span> <span class="o">|</span>
-</span><span class='line'><span class="o">|</span> <span class="n">left</span> <span class="n">aligned</span>    <span class="o">|</span>   <span class="n">centered</span>    <span class="o">|</span>    <span class="n">right</span><span class="o">-</span><span class="n">aligned</span> <span class="o">|</span>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="java"><span class="line"><span class="o">|</span> <span class="n">Tables</span>          <span class="o">|</span>      <span class="n">Are</span>      <span class="o">|</span>  <span class="n">Cool</span>            <span class="o">|</span>
+</span><span class="line"><span class="o">|:----------------|:-------------:|-----------------:|</span>
+</span><span class="line"><span class="o">|</span> <span class="n">left</span> <span class="n">aligned</span>    <span class="o">|</span>   <span class="n">centered</span>    <span class="o">|</span>    <span class="n">right</span><span class="o">-</span><span class="n">aligned</span> <span class="o">|</span>
+</span><span class="line"><span class="o">|</span> <span class="n">left</span> <span class="n">aligned</span>    <span class="o">|</span>   <span class="n">centered</span>    <span class="o">|</span>    <span class="n">right</span><span class="o">-</span><span class="n">aligned</span> <span class="o">|</span>
+</span><span class="line"><span class="o">|</span> <span class="n">left</span> <span class="n">aligned</span>    <span class="o">|</span>   <span class="n">centered</span>    <span class="o">|</span>    <span class="n">right</span><span class="o">-</span><span class="n">aligned</span> <span class="o">|</span>
 </span></code></pre></td></tr></table></div></figure>
-
 
 <p>The above text in markdown generates tables as below.</p>
 
 <table>
-<thead>
-<tr>
-<th style="text-align:left;"> Tables          </th>
-<th style="text-align:center;">      Are      </th>
-<th style="text-align:right;">  Cool            </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;"> left aligned    </td>
-<td style="text-align:center;">   centered    </td>
-<td style="text-align:right;">    right-aligned </td>
-</tr>
-<tr>
-<td style="text-align:left;"> left aligned    </td>
-<td style="text-align:center;">   centered    </td>
-<td style="text-align:right;">    right-aligned </td>
-</tr>
-<tr>
-<td style="text-align:left;"> left aligned    </td>
-<td style="text-align:center;">   centered    </td>
-<td style="text-align:right;">    right-aligned </td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th style="text-align: left">Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">left aligned</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">right-aligned</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">left aligned</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">right-aligned</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">left aligned</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">right-aligned</td>
+    </tr>
+  </tbody>
 </table>
-
 
 <hr />
 
-<h3>Task list</h3>
-
+<h3 id="task-list">Task list</h3>
 <p>These are usually checkboxes. starts either with <code>- [ ]</code> or `- [X]. The former is used to for uncheked and the later one is for checked boxes.</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">Technologies</span> <span class="n">I</span> <span class="n">have</span> <span class="n">good</span> <span class="n">knowledge</span> <span class="n">on</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">HTML5</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">CSS3</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">JavaScript</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Jquery</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Angular</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">Angular</span> <span class="mi">2</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Node</span><span class="o">.</span><span class="na">js</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">React</span><span class="o">.</span><span class="na">js</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">Photoshop</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">UI</span> <span class="n">design</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">UX</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Design</span> <span class="n">Patterns</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Data</span> <span class="n">Structures</span> <span class="o">&amp;</span> <span class="n">Algorithems</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Jekyll</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Java</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Spring</span> <span class="n">MVC</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">C</span><span class="o">++</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">C</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Wordpress</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Git</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Android</span>
-</span><span class='line'>
-</span><span class='line'><span class="n">Familiar</span> <span class="n">with</span> <span class="n">the</span> <span class="n">below</span> <span class="n">techs</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Docker</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Ansible</span>
-</span><span class='line'><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Gradle</span>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+</pre></td><td class="code"><pre><code class="java"><span class="line"><span class="n">Technologies</span> <span class="n">I</span> <span class="n">have</span> <span class="n">good</span> <span class="n">knowledge</span> <span class="n">on</span>
+</span><span class="line">
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">HTML5</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">CSS3</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">JavaScript</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Jquery</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Angular</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">Angular</span> <span class="mi">2</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Node</span><span class="o">.</span><span class="na">js</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">React</span><span class="o">.</span><span class="na">js</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">Photoshop</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">UI</span> <span class="n">design</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span> <span class="o">]</span> <span class="n">UX</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Design</span> <span class="n">Patterns</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Data</span> <span class="n">Structures</span> <span class="o">&amp;</span> <span class="n">Algorithems</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Jekyll</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Java</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Spring</span> <span class="n">MVC</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">C</span><span class="o">++</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">C</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Wordpress</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Git</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Android</span>
+</span><span class="line">
+</span><span class="line"><span class="n">Familiar</span> <span class="n">with</span> <span class="n">the</span> <span class="n">below</span> <span class="n">techs</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Docker</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Ansible</span>
+</span><span class="line"><span class="o">-</span> <span class="o">[</span><span class="n">x</span><span class="o">]</span> <span class="n">Gradle</span>
 </span></code></pre></td></tr></table></div></figure>
-
 
 <p>Technologies I have good knowledge on</p>
 
 <ul>
-<li>[x] HTML5</li>
-<li>[x] CSS3</li>
-<li>[x] JavaScript</li>
-<li>[x] Jquery</li>
-<li>[x] Angular</li>
-<li>[ ] Angular 2</li>
-<li>[x] Node.js</li>
-<li>[ ] React.js</li>
-<li>[ ] Photoshop</li>
-<li>[ ] UI design</li>
-<li>[ ] UX</li>
-<li>[x] Design Patterns</li>
-<li>[x] Data Structures &amp; Algorithems</li>
-<li>[x] Jekyll</li>
-<li>[x] Java</li>
-<li>[x] Spring MVC</li>
-<li>[x] C++</li>
-<li>[x] C</li>
-<li>[x] Wordpress</li>
-<li>[x] Git</li>
-<li>[x] Android</li>
+  <li>[x] HTML5</li>
+  <li>[x] CSS3</li>
+  <li>[x] JavaScript</li>
+  <li>[x] Jquery</li>
+  <li>[x] Angular</li>
+  <li>[ ] Angular 2</li>
+  <li>[x] Node.js</li>
+  <li>[ ] React.js</li>
+  <li>[ ] Photoshop</li>
+  <li>[ ] UI design</li>
+  <li>[ ] UX</li>
+  <li>[x] Design Patterns</li>
+  <li>[x] Data Structures &amp; Algorithems</li>
+  <li>[x] Jekyll</li>
+  <li>[x] Java</li>
+  <li>[x] Spring MVC</li>
+  <li>[x] C++</li>
+  <li>[x] C</li>
+  <li>[x] Wordpress</li>
+  <li>[x] Git</li>
+  <li>[x] Android</li>
 </ul>
-
 
 <p>Familiar with the below techs</p>
 
 <ul>
-<li>[x] Docker</li>
-<li>[x] Ansible</li>
-<li>[x] Gradle</li>
+  <li>[x] Docker</li>
+  <li>[x] Ansible</li>
+  <li>[x] Gradle</li>
 </ul>
-
 </div>
 
 
