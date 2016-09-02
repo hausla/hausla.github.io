@@ -4,7 +4,7 @@
   <title><![CDATA[Techtaste]]></title>
   <link href="http://techtaste.in/atom.xml" rel="self"/>
   <link href="http://techtaste.in/"/>
-  <updated>2016-09-02T10:53:20+05:30</updated>
+  <updated>2016-09-02T11:13:41+05:30</updated>
   <id>http://techtaste.in/</id>
   <author>
     <name><![CDATA[Chari]]></name>
@@ -269,7 +269,6 @@ e.g.
 <hr />
 
 <h3 id="table">Table</h3>
-<p>Please refer this <a href="http://techtaste.in" title="Get hands on techs">post</a> for creating tables.</p>
 
 <p>The below is sample example to show how to create a table in Markdown.</p>
 
