@@ -202,8 +202,6 @@ output of the above example
 ----
 
 ### Table
-Please refer this [post] [1] for creating tables.
-
 
 The below is sample example to show how to create a table in Markdown.
 
