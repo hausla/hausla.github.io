@@ -108,12 +108,12 @@ _Emphasis_
 ### Code
 To display code in Maadrkdown
 
-<pre class="highlight">
-```
-public static void main(String arg[]) {
-  System.out.println("Hello world"); 
-}
-```</pre>
+
+    ```
+    public static void main(String arg[]) {
+      System.out.println("Hello world"); 
+    }
+    ```
 
 ```
 public static void main(String arg[]) {
@@ -125,24 +125,21 @@ For every code block you should
 
 > you can also 4 ~ (tilde) symbol at the begining and end of the code to display code as below
 
-<pre class="highlight">
 ~~~~
 public static void main(String arg[]) {
   System.out.println("Hello world"); 
 }
 ~~~~
-</pre>
 
 ### Highlight Code
 
 The below is the syntax to highlight java code
 
-<pre class="highlight">
-``` java
-public static void main(String arg[]) {
-  System.out.println("Hello world"); 
-}
-```</pre>
+    ``` java
+    public static void main(String arg[]) {
+      System.out.println("Hello world"); 
+    }
+    ```
 
 ``` java
 public static void main(String arg[]) {

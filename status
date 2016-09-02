@@ -1,0 +1,88 @@
+[1mdiff --git a/.themes/techtaste b/.themes/techtaste[m
+[1m--- a/.themes/techtaste[m
+[1m+++ b/.themes/techtaste[m
+[36m@@ -1 +1 @@[m
+[31m-Subproject commit 423761191f15db8f859a3ad048eb988a77be4bbd[m
+[32m+[m[32mSubproject commit 423761191f15db8f859a3ad048eb988a77be4bbd-dirty[m
+[1mdiff --git a/_config.yml b/_config.yml[m
+[1mindex dbc4b00..56b2798 100644[m
+[1m--- a/_config.yml[m
+[1m+++ b/_config.yml[m
+[36m@@ -33,13 +33,10 @@[m [mdestination: public[m
+ plugins: plugins[m
+ code_dir: downloads/code[m
+ category_dir: blog/categories[m
+[31m-markdown: rdiscount[m
+[31m-rdiscount:[m
+[31m-  extensions:[m
+[31m-    - autolink[m
+[31m-    - footnotes[m
+[31m-    - smart[m
+[31m-highlighter: pygments # default python pygments have been replaced by pygments.rb[m
+[32m+[m[32mmarkdown: kramdown[m
+[32m+[m[32mkramdown:[m
+[32m+[m[32m  input: GFM[m
+[32m+[m[32m  syntax_highlighter: rouge[m
+ [m
+ paginate: 10          # Posts per page on the blog index[m
+ paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/[m
+[1mdiff --git a/public b/public[m
+[1mindex e129b98..f24e2ce 160000[m
+[1m--- a/public[m
+[1m+++ b/public[m
+[36m@@ -1 +1 @@[m
+[31m-Subproject commit e129b98784c9fcb5c6b958e462895957437c8157[m
+[32m+[m[32mSubproject commit f24e2ce51b6ad1240f87fe1923c659d82ad69789-dirty[m
+[1mdiff --git a/source/_posts/2016-09-02-markdown-quick-reference-for-github-pages.markdown b/source/_posts/2016-09-02-markdown-quick-reference-for-github-pages.markdown[m
+[1mindex c7d0c94..2df6784 100644[m
+[1m--- a/source/_posts/2016-09-02-markdown-quick-reference-for-github-pages.markdown[m
+[1m+++ b/source/_posts/2016-09-02-markdown-quick-reference-for-github-pages.markdown[m
+[36m@@ -108,12 +108,12 @@[m [m_Emphasis_[m
+ ### Code[m
+ To display code in Maadrkdown[m
+ [m
+[31m-<pre class="highlight">[m
+[31m-```[m
+[31m-public static void main(String arg[]) {[m
+[31m-  System.out.println("Hello world"); [m
+[31m-}[m
+[31m-```</pre>[m
+[32m+[m
+[32m+[m[32m    ```[m
+[32m+[m[32m    public static void main(String arg[]) {[m
+[32m+[m[32m      System.out.println("Hello world");[m[41m [m
+[32m+[m[32m    }[m
+[32m+[m[32m    ```[m
+ [m
+ ```[m
+ public static void main(String arg[]) {[m
+[36m@@ -125,24 +125,21 @@[m [mFor every code block you should[m
+ [m
+ > you can also 4 ~ (tilde) symbol at the begining and end of the code to display code as below[m
+ [m
+[31m-<pre class="highlight">[m
+ ~~~~[m
+ public static void main(String arg[]) {[m
+   System.out.println("Hello world"); [m
+ }[m
+ ~~~~[m
+[31m-</pre>[m
+ [m
+ ### Highlight Code[m
+ [m
+ The below is the syntax to highlight java code[m
+ [m
+[31m-<pre class="highlight">[m
+[31m-``` java[m
+[31m-public static void main(String arg[]) {[m
+[31m-  System.out.println("Hello world"); [m
+[31m-}[m
+[31m-```</pre>[m
+[32m+[m[32m    ``` java[m
+[32m+[m[32m    public static void main(String arg[]) {[m
+[32m+[m[32m      System.out.println("Hello world");[m[41m [m
+[32m+[m[32m    }[m
+[32m+[m[32m    ```[m
+ [m
+ ``` java[m
+ public static void main(String arg[]) {[m
