@@ -3,7 +3,7 @@ layout: post
 title: "Markdown quick reference for github pages"
 date: 2016-09-02 00:09:06 +0530
 comments: true
-categories: 
+categories: ["markdown"]
 ---
 
 Below are the basic syntaxes for writing [markdown](https://en.wikipedia.org/wiki/Markdown) pages.
