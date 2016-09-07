@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Markdown | Techtaste]]></title>
+  <link href="http://techtaste.in/blog/categories/markdown/atom.xml" rel="self"/>
+  <link href="http://techtaste.in/"/>
+  <updated>2016-09-07T11:56:45+05:30</updated>
+  <id>http://techtaste.in/</id>
+  <author>
+    <name><![CDATA[Chari]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown Quick Reference for Github Pages]]></title>
+    <link href="http://techtaste.in/blog/2016/09/02/markdown-quick-reference-for-github-pages/"/>
+    <updated>2016-09-02T00:09:06+05:30</updated>
+    <id>http://techtaste.in/blog/2016/09/02/markdown-quick-reference-for-github-pages</id>
+    <content type="html"><![CDATA[<p>Below are the basic syntaxes for writing <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> pages.</p>
+
+<h3 id="highlighting">Highlighting</h3>
+
+<pre><code>**bold**
+__bold__
+
+*Emphasis*
+_Emphasis_
+</code></pre>
+
+<blockquote>
+  <p><strong>bold</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>bold</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><em>Emphasis</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>Emphasis</em></p>
+</blockquote>
+
+<h3 id="lists">Lists</h3>
+
+<h4 id="unordered-list">Unordered List</h4>
+<pre><code>* list item 1
+* list item 2
+	* sub list item 1
+	* sub list item 2
+		* nested sub list item 1
+		* nested sub list item 2
+</code></pre>
+<ul>
+  <li>list item 1</li>
+  <li>list item 2
+    <ul>
+      <li>sub list item 1</li>
+      <li>sub list item 2
+        <ul>
+          <li>nested sub list item 1</li>
+          <li>nested sub list item 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="ordered-list">Ordered List</h4>
+<pre><code>1. list item 1
+2. list item 2
+	1. sub list item 1
+	2. sub list item 2
+		1. nested sub list item 1
+		2. nested sub list item 2
+</code></pre>
+
+<!--more-->
+
+<ol>
+  <li>list item 1</li>
+  <li>list item 2
+    <ol>
+      <li>sub list item 1</li>
+      <li>sub list item 2
+        <ol>
+          <li>nested sub list item 1</li>
+          <li>nested sub list item 2</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="quoted-text">Quoted text</h3>
+
+<pre><code>&gt; Quoted text.
+&gt; &gt; Quoted text within another quoted text.
+</code></pre>
+
+<blockquote>
+  <p>Quoted text.</p>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>Quoted text within another quoted text.</p>
+  </blockquote>
+</blockquote>
+
+<h3 id="list-items-quoted-text">List items quoted text</h3>
+
+<pre><code>&gt; * Quoted 
+&gt; * List
+</code></pre>
+
+<blockquote>
+  <ul>
+    <li>Quoted</li>
+    <li>List</li>
+  </ul>
+</blockquote>
+
+<h3 id="headings">Headings</h3>
+
+<pre><code># Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+</code></pre>
+
+<blockquote>
+  <h1 id="heading-1">Heading 1</h1>
+</blockquote>
+
+<blockquote>
+  <h2 id="heading-2">Heading 2</h2>
+</blockquote>
+
+<blockquote>
+  <h3 id="heading-3">Heading 3</h3>
+</blockquote>
+
+<blockquote>
+  <h4 id="heading-4">Heading 4</h4>
+</blockquote>
+
+<h3 id="code">Code</h3>
+<p>To display code in Maadrkdown</p>
+
+<pre><code>```
+public static void main(String arg[]) {
+  System.out.println("Hello world"); 
+}
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;public static void main(String arg[]) {
+</span><span class='line'>  System.out.println("Hello world"); 
+</span><span class='line'>}
+</span><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>&lt;p&gt;Note: symbol &lt;code&gt;`&lt;/code&gt; is known as Grave. Which can be found above the &lt;code&gt;Tab&lt;/code&gt; button in Keyboard.&lt;br /&gt;
+</span><span class='line'>For every code block you should&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;blockquote&gt;
+</span><span class='line'>  &lt;p&gt;you can also 4 ~ (tilde) symbol at the begining and end of the code to display code as below&lt;/p&gt;
+</span><span class='line'>&lt;/blockquote&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;public static void main(String arg[]) {
+</span><span class='line'>  System.out.println("Hello world"); 
+</span><span class='line'>}
+</span><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h3 id="highlight-code"&gt;Highlight Code&lt;/h3&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;The below is the syntax to highlight java code&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;``` java
+</span><span class='line'>public static void main(String arg[]) {
+</span><span class='line'>  System.out.println("Hello world"); 
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+</code></pre>
+
+<pre><code class="language-java">public static void main(String arg[]) {
+  System.out.println("Hello world"); 
+}
+</code></pre>
+
+<h3 id="links">Links</h3>
+
+<pre><code>syntax :
+[LinkName](url)
+
+e.g. 
+[wiki](https://en.wikipedia.org/wiki/Main_Page)
+[google](https://google.com)
+
+</code></pre>
+
+<p>Links to wiki and google pages</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Main_Page">wiki</a></p>
+
+<p><a href="https://google.com">google</a></p>
+
+<h3 id="reference-link">Reference link</h3>
+<pre><code>
+Unlike Normal links(previous example), the syntax for this
+
+in previous e.g. [google] (https://google.com) the url "https://google.com" is placed within ().
+
+In here same thing can be achieved with below code
+
+[google] [1]
+
+[1]: https://google.com
+
+
+Usually reference links are used within a paragraph. 
+e.g.
+
+[Techtaste] [1] is my site, which is hosted on [github] [2] pages. [Jekyll] [3] used for generating this site.
+
+[1]: http://techtaste.in "Get hands on techs"
+[2]: https://github.com/Raghavendrak555 "github link"
+[3]: https://jekyllrb.com/ "Learn Jekyll"
+
+</code></pre>
+<p>output of the above example</p>
+
+<blockquote>
+  <p><a href="http://techtaste.in" title="Get hands on techs">Techtaste</a> is my site, which is hosted on <a href="https://github.com/Raghavendrak555" title="github link">github</a> pages. <a href="https://jekyllrb.com/" title="Learn Jekyll">Jekyll</a> used for generating this site.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="table">Table</h3>
+
+<p>The below is sample example to show how to create a table in Markdown.</p>
+
+<pre><code>| Tables          |      Are      |  Cool            |
+|:----------------|:-------------:|-----------------:|
+| left aligned    |   centered    |    right-aligned |
+| left aligned    |   centered    |    right-aligned |
+| left aligned    |   centered    |    right-aligned |
+
+</code></pre>
+
+<p>The above text in markdown generates tables as below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">left aligned</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">right-aligned</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">left aligned</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">right-aligned</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">left aligned</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">right-aligned</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="task-list">Task list</h3>
+<p>These are usually checkboxes. starts either with <code>- [ ]</code> or `- [X]. The former is used to for uncheked and the later one is for checked boxes.</p>
+
+<pre><code>Technologies I have good knowledge on
+
+- [x] HTML5
+- [x] CSS3
+- [x] JavaScript
+- [x] Jquery
+- [x] Angular
+- [ ] Angular 2
+- [x] Node.js
+- [ ] React.js
+- [ ] Photoshop
+- [ ] UI design
+- [ ] UX
+- [x] Design Patterns
+- [x] Data Structures &amp; Algorithems
+- [x] Jekyll
+- [x] Java
+- [x] Spring MVC
+- [x] C++
+- [x] C
+- [x] Wordpress
+- [x] Git
+- [x] Android
+
+Familiar with the below techs
+- [x] Docker
+- [x] Ansible
+- [x] Gradle
+
+</code></pre>
+
+<p>Technologies I have good knowledge on</p>
+
+<ul>
+  <li>[x] HTML5</li>
+  <li>[x] CSS3</li>
+  <li>[x] JavaScript</li>
+  <li>[x] Jquery</li>
+  <li>[x] Angular</li>
+  <li>[ ] Angular 2</li>
+  <li>[x] Node.js</li>
+  <li>[ ] React.js</li>
+  <li>[ ] Photoshop</li>
+  <li>[ ] UI design</li>
+  <li>[ ] UX</li>
+  <li>[x] Design Patterns</li>
+  <li>[x] Data Structures &amp; Algorithems</li>
+  <li>[x] Jekyll</li>
+  <li>[x] Java</li>
+  <li>[x] Spring MVC</li>
+  <li>[x] C++</li>
+  <li>[x] C</li>
+  <li>[x] Wordpress</li>
+  <li>[x] Git</li>
+  <li>[x] Android</li>
+</ul>
+
+<p>Familiar with the below techs</p>
+
+<ul>
+  <li>[x] Docker</li>
+  <li>[x] Ansible</li>
+  <li>[x] Gradle</li>
+</ul>
+]]></content>
+  </entry>
+  
+</feed>
