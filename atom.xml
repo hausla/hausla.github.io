@@ -4,7 +4,7 @@
   <title><![CDATA[Techtaste]]></title>
   <link href="http://hausla.github.io/atom.xml" rel="self"/>
   <link href="http://hausla.github.io/"/>
-  <updated>2016-11-27T17:36:50+05:30</updated>
+  <updated>2016-11-27T19:23:13+05:30</updated>
   <id>http://hausla.github.io/</id>
   <author>
     <name><![CDATA[Chari]]></name>
@@ -19,6 +19,15 @@
     <updated>2016-11-27T00:09:06+05:30</updated>
     <id>http://hausla.github.io/blog/2016/11/27/temp</id>
     <content type="html"><![CDATA[<p>this is sample post</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This Is Second Post]]></title>
+    <link href="http://hausla.github.io/blog/2016/11/27/name-of-the-post/"/>
+    <updated>2016-11-27T00:09:06+05:30</updated>
+    <id>http://hausla.github.io/blog/2016/11/27/name-of-the-post</id>
+    <content type="html"><![CDATA[<p>this is second post</p>
 ]]></content>
   </entry>
   
