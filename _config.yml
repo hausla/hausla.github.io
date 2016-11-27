@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://hausla.github.io
-title: Techtaste
-subtitle: Learn -> Code -> Merge -> Deploy
-author: Chari
+url: http://hausla.info
+title: Hausla
+subtitle: 
+author: Hausla
 simple_search: https://www.google.com/search
 description:
 
@@ -88,7 +88,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: techtaste-in
+disqus_short_name: hausla8916
 disqus_show_comment_count: false
 
 # Google Analytics
