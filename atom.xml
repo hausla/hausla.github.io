@@ -4,7 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-11-27T19:50:04+05:30</updated>
+  <updated>2016-11-27T20:05:57+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ajay Making First Post]]></title>
+    <link href="http://hausla.info/blog/2016/11/27/ajay-making-first-post/"/>
+    <updated>2016-11-27T20:01:16+05:30</updated>
+    <id>http://hausla.info/blog/2016/11/27/ajay-making-first-post</id>
+    <content type="html"><![CDATA[<p><strong>This is my first post in the Hausla.</strong></p>
+
+<p>my first post in the</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown Quick Reference for Github Pages]]></title>
