@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://hausla.github.io/sitemap.xml
+Sitemap: http://hausla.info/sitemap.xml
