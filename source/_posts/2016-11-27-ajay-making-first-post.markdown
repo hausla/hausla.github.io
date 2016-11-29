@@ -8,4 +8,4 @@ categories:
 
 **This is my first post in the Hausla.**
 
-my first post in the
+my first post in the. Yesterday I created this post. Today I'm making some changes in it. 
