@@ -4,7 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-11-28T17:44:31+05:30</updated>
+  <updated>2016-11-29T09:12:53+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Swach Campus and Student's Sucidie]]></title>
-    <link href="http://hausla.info/blog/2016/11/28/this-is-second-trial-post-for-UoH/"/>
-    <updated>2016-11-28T17:24:04+05:30</updated>
-    <id>http://hausla.info/blog/2016/11/28/this-is-second-trial-post-for-UoH</id>
-    <content type="html"><![CDATA[<p>This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own.</p>
-
-<p>This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own. This should work properly because I’m trying this post own my own.</p>
+    <title type="html"><![CDATA[This Is Third Post]]></title>
+    <link href="http://hausla.info/blog/2016/11/29/this-is-third-post/"/>
+    <updated>2016-11-29T09:11:39+05:30</updated>
+    <id>http://hausla.info/blog/2016/11/29/this-is-third-post</id>
+    <content type="html"><![CDATA[<p>This is my third attempt to write a blog enty. I hope that it will work this time.</p>
 ]]></content>
   </entry>
   
@@ -31,7 +29,7 @@
     <id>http://hausla.info/blog/2016/11/27/ajay-making-first-post</id>
     <content type="html"><![CDATA[<p><strong>This is my first post in the Hausla.</strong></p>
 
-<p>my first post in the</p>
+<p>my first post in the. Yesterday I created this post. Today I’m making some changes in it.</p>
 ]]></content>
   </entry>
   
