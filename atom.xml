@@ -4,7 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-12-01T23:17:28+05:30</updated>
+  <updated>2016-12-01T23:34:52+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -14,28 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Happy New Year Hausla]]></title>
-    <link href="http://hausla.info/blog/2016/12/01/happy-new-year-hausla/"/>
-    <updated>2016-12-01T23:17:09+05:30</updated>
-    <id>http://hausla.info/blog/2016/12/01/happy-new-year-hausla</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[University of Hyderabad Post New Year]]></title>
-    <link href="http://hausla.info/blog/2016/12/01/university-of-hyderabad-post-new-year/"/>
-    <updated>2016-12-01T23:07:46+05:30</updated>
-    <id>http://hausla.info/blog/2016/12/01/university-of-hyderabad-post-new-year</id>
-    <content type="html"><![CDATA[<p>This will be the first post from the hausla UoH for new year 2017.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[University of Hyderabad Post]]></title>
-    <link href="http://hausla.info/blog/2016/12/01/university-of-hyderabad-post/"/>
-    <updated>2016-12-01T22:55:48+05:30</updated>
-    <id>http://hausla.info/blog/2016/12/01/university-of-hyderabad-post</id>
+    <title type="html"><![CDATA[Happy New Year]]></title>
+    <link href="http://hausla.info/blog/2016/12/01/happy-new-year/"/>
+    <updated>2016-12-01T23:34:35+05:30</updated>
+    <id>http://hausla.info/blog/2016/12/01/happy-new-year</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
