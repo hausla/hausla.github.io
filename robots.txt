@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://hausla.info/sitemap.xml
