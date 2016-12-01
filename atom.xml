@@ -4,7 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-12-01T22:56:09+05:30</updated>
+  <updated>2016-12-01T23:10:00+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[University of Hyderabad Post New Year]]></title>
+    <link href="http://hausla.info/blog/2016/12/01/university-of-hyderabad-post-new-year/"/>
+    <updated>2016-12-01T23:07:46+05:30</updated>
+    <id>http://hausla.info/blog/2016/12/01/university-of-hyderabad-post-new-year</id>
+    <content type="html"><![CDATA[<p>This will be the first post from the hausla UoH for new year 2017.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[University of Hyderabad Post]]></title>
