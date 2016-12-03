@@ -260,7 +260,7 @@ multitask :push do
   puts "\n## Copying #{public_dir} to #{deploy_dir}"
   cp_r "#{public_dir}/.", deploy_dir
   cd "#{deploy_dir}" do
-    cp "#{source_dir}/CNAME", deploy_dir
+    cp "CNAME", deploy_dir
     system "git add -A"
     message = "Site updated at #{Time.now.utc}"
     puts "\n## Committing: #{message}"
