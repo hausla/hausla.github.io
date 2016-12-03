@@ -4,11 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-<<<<<<< HEAD
-  <updated>2016-12-03T10:35:05+05:30</updated>
-=======
-  <updated>2016-12-01T23:34:52+05:30</updated>
->>>>>>> fe258bc831e6ac2ec756bc8e72efefbe1f9cd016
+  <updated>2016-12-03T10:39:23+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -43,7 +39,6 @@
     <content type="html"><![CDATA[<p><strong>This is my first post in the Hausla.</strong></p>
 
 <p>my first post in the. Yesterday I created this post. Today I’m making some changes in it.</p>
-<<<<<<< HEAD
 ]]></content>
   </entry>
   
@@ -53,8 +48,6 @@
     <updated>2016-11-27T00:09:06+05:30</updated>
     <id>http://hausla.info/blog/2016/11/27/temp</id>
     <content type="html"><![CDATA[<p>this is sample post</p>
-=======
->>>>>>> fe258bc831e6ac2ec756bc8e72efefbe1f9cd016
 ]]></content>
   </entry>
   

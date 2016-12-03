@@ -7,7 +7,6 @@
 <url>
 <loc>http://hausla.info/blog/2016/11/29/this-is-third-post/</loc>
 <lastmod>2016-11-29T09:11:39+05:30</lastmod>
-<<<<<<< HEAD
 </url>
 <url>
 <loc>http://hausla.info/blog/2016/11/27/ajay-making-first-post/</loc>
@@ -16,17 +15,10 @@
 <url>
 <loc>http://hausla.info/blog/2016/11/27/temp/</loc>
 <lastmod>2016-11-27T00:09:06+05:30</lastmod>
-=======
-</url>
-<url>
-<loc>http://hausla.info/blog/2016/11/27/ajay-making-first-post/</loc>
-<lastmod>2016-11-27T20:01:16+05:30</lastmod>
->>>>>>> fe258bc831e6ac2ec756bc8e72efefbe1f9cd016
 </url>
 <url>
 <loc>http://hausla.info/blog/2016/09/02/markdown-quick-reference-for-github-pages/</loc>
 <lastmod>2016-09-02T00:09:06+05:30</lastmod>
-<<<<<<< HEAD
 </url>
 <url>
 <loc>http://hausla.info/blog/archives/</loc>
@@ -39,16 +31,5 @@
 </url>
 <url>
 <loc>http://hausla.info/blog/categories/sample/</loc>
-=======
-</url>
-<url>
-<loc>http://hausla.info/blog/archives/</loc>
-</url>
-<url>
-<loc>http://hausla.info/</loc>
-</url>
-<url>
-<loc>http://hausla.info/blog/categories/markdown/</loc>
->>>>>>> fe258bc831e6ac2ec756bc8e72efefbe1f9cd016
 </url>
 </urlset>
