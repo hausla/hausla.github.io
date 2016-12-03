@@ -4,7 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-12-03T10:54:48+05:30</updated>
+  <updated>2016-12-03T11:01:05+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -12,71 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[December Post II]]></title>
-    <link href="http://hausla.info/blog/2016/12/03/december-post-ii/"/>
-    <updated>2016-12-03T10:54:29+05:30</updated>
-    <id>http://hausla.info/blog/2016/12/03/december-post-ii</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Raghav Post]]></title>
-    <link href="http://hausla.info/blog/2016/12/03/raghav-post/"/>
-    <updated>2016-12-03T10:40:57+05:30</updated>
-    <id>http://hausla.info/blog/2016/12/03/raghav-post</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[December Post]]></title>
-    <link href="http://hausla.info/blog/2016/12/03/december-post/"/>
-    <updated>2016-12-03T10:18:59+05:30</updated>
-    <id>http://hausla.info/blog/2016/12/03/december-post</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Happy New Year]]></title>
-    <link href="http://hausla.info/blog/2016/12/01/happy-new-year/"/>
-    <updated>2016-12-01T23:34:35+05:30</updated>
-    <id>http://hausla.info/blog/2016/12/01/happy-new-year</id>
-    <content type="html"><![CDATA[<p>This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[This Is Third Post]]></title>
-    <link href="http://hausla.info/blog/2016/11/29/this-is-third-post/"/>
-    <updated>2016-11-29T09:11:39+05:30</updated>
-    <id>http://hausla.info/blog/2016/11/29/this-is-third-post</id>
-    <content type="html"><![CDATA[<p>This is my third attempt to write a blog enty. I hope that it will work this time.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ajay Making First Post]]></title>
-    <link href="http://hausla.info/blog/2016/11/27/ajay-making-first-post/"/>
-    <updated>2016-11-27T20:01:16+05:30</updated>
-    <id>http://hausla.info/blog/2016/11/27/ajay-making-first-post</id>
-    <content type="html"><![CDATA[<p><strong>This is my first post in the Hausla.</strong></p>
-
-<p>my first post in the. Yesterday I created this post. Today I’m making some changes in it.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[This Is Sample Post]]></title>
-    <link href="http://hausla.info/blog/2016/11/27/temp/"/>
-    <updated>2016-11-27T00:09:06+05:30</updated>
-    <id>http://hausla.info/blog/2016/11/27/temp</id>
-    <content type="html"><![CDATA[<p>this is sample post</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown Quick Reference for Github Pages]]></title>
