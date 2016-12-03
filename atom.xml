@@ -4,7 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-12-03T10:41:04+05:30</updated>
+  <updated>2016-12-03T10:53:38+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -23,11 +23,20 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[December Post]]></title>
+    <link href="http://hausla.info/blog/2016/12/03/december-post/"/>
+    <updated>2016-12-03T10:18:59+05:30</updated>
+    <id>http://hausla.info/blog/2016/12/03/december-post</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Happy New Year]]></title>
     <link href="http://hausla.info/blog/2016/12/01/happy-new-year/"/>
     <updated>2016-12-01T23:34:35+05:30</updated>
     <id>http://hausla.info/blog/2016/12/01/happy-new-year</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla.  This post is the first post for year 2017 from team hausla. This post is the first post for year 2017 from team hausla.</p>
 ]]></content>
   </entry>
   
