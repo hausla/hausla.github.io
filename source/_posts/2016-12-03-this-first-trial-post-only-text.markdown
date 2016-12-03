@@ -10,4 +10,4 @@ categories:
 bla bla bla bla bla bla bla bla bla.
 
 # Section 1
-bla bla bal see ths bla bla picture. Please see this bla bla picture for more information ![This is best picture.](C:\Users\akkoli\Documents\Hausala\pic\wastebin.jpeg). And as well see the bla bla web link for. 
+bla bla bal see ths bla bla picture. Please see this bla bla picture for more information ![Waste Bin](Picture/image.png). And as well see the bla bla web link for. 
