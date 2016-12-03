@@ -4,7 +4,7 @@
   <title><![CDATA[Hausla]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-12-03T10:53:38+05:30</updated>
+  <updated>2016-12-03T10:54:48+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[December Post II]]></title>
+    <link href="http://hausla.info/blog/2016/12/03/december-post-ii/"/>
+    <updated>2016-12-03T10:54:29+05:30</updated>
+    <id>http://hausla.info/blog/2016/12/03/december-post-ii</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Raghav Post]]></title>
