@@ -4,7 +4,7 @@
   <title><![CDATA[HAUSLA]]></title>
   <link href="http://hausla.info/atom.xml" rel="self"/>
   <link href="http://hausla.info/"/>
-  <updated>2016-12-03T17:26:18+05:30</updated>
+  <updated>2016-12-03T17:32:44+05:30</updated>
   <id>http://hausla.info/</id>
   <author>
     <name><![CDATA[Hausla]]></name>
@@ -22,7 +22,7 @@
 <p>bla bla bla bla bla bla bla bla bla.</p>
 
 <h1 id="section-1">Section 1</h1>
-<p>bla bla bal see ths bla bla picture. Please see this bla bla picture for more information <img src="Picture/image.png" alt="Waste Bin" />. And as well see the bla bla web link for.</p>
+<p>bla bla bal see ths bla bla picture. Please see this bla bla picture for more information <img src="http://hausla.info/home/hausla/Pictures/image.png" alt="Waste Bin" />. And as well see the bla bla web link for.</p>
 ]]></content>
   </entry>
   
