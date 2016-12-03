@@ -1,32 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Techtaste]]></title>
-  <link href="http://hausla.github.io/atom.xml" rel="self"/>
-  <link href="http://hausla.github.io/"/>
-  <updated>2016-11-27T17:36:50+05:30</updated>
-  <id>http://hausla.github.io/</id>
+  <title><![CDATA[Hausla]]></title>
+  <link href="http://hausla.info/atom.xml" rel="self"/>
+  <link href="http://hausla.info/"/>
+  <updated>2016-12-03T09:53:38+05:30</updated>
+  <id>http://hausla.info/</id>
   <author>
-    <name><![CDATA[Chari]]></name>
+    <name><![CDATA[Hausla]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+    <title type="html"><![CDATA[Happy New Year]]></title>
+    <link href="http://hausla.info/blog/2016/12/01/happy-new-year/"/>
+    <updated>2016-12-01T23:34:35+05:30</updated>
+    <id>http://hausla.info/blog/2016/12/01/happy-new-year</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This Is Third Post]]></title>
+    <link href="http://hausla.info/blog/2016/11/29/this-is-third-post/"/>
+    <updated>2016-11-29T09:11:39+05:30</updated>
+    <id>http://hausla.info/blog/2016/11/29/this-is-third-post</id>
+    <content type="html"><![CDATA[<p>This is my third attempt to write a blog enty. I hope that it will work this time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ajay Making First Post]]></title>
+    <link href="http://hausla.info/blog/2016/11/27/ajay-making-first-post/"/>
+    <updated>2016-11-27T20:01:16+05:30</updated>
+    <id>http://hausla.info/blog/2016/11/27/ajay-making-first-post</id>
+    <content type="html"><![CDATA[<p><strong>This is my first post in the Hausla.</strong></p>
+
+<p>my first post in the. Yesterday I created this post. Today I’m making some changes in it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[This Is Sample Post]]></title>
-    <link href="http://hausla.github.io/blog/2016/11/27/temp/"/>
+    <link href="http://hausla.info/blog/2016/11/27/temp/"/>
     <updated>2016-11-27T00:09:06+05:30</updated>
-    <id>http://hausla.github.io/blog/2016/11/27/temp</id>
+    <id>http://hausla.info/blog/2016/11/27/temp</id>
     <content type="html"><![CDATA[<p>this is sample post</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown Quick Reference for Github Pages]]></title>
-    <link href="http://hausla.github.io/blog/2016/09/02/markdown-quick-reference-for-github-pages/"/>
+    <link href="http://hausla.info/blog/2016/09/02/markdown-quick-reference-for-github-pages/"/>
     <updated>2016-09-02T00:09:06+05:30</updated>
-    <id>http://hausla.github.io/blog/2016/09/02/markdown-quick-reference-for-github-pages</id>
+    <id>http://hausla.info/blog/2016/09/02/markdown-quick-reference-for-github-pages</id>
     <content type="html"><![CDATA[<p>Below are the basic syntaxes for writing <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> pages.</p>
 
 <h3 id="highlighting">Highlighting</h3>
@@ -418,15 +447,6 @@ e.g.
   <li>[x] Ansible</li>
   <li>[x] Gradle</li>
 </ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://hausla.github.io/blog/2016/09/01/hello-world/"/>
-    <updated>2016-09-01T23:04:24+05:30</updated>
-    <id>http://hausla.github.io/blog/2016/09/01/hello-world</id>
-    <content type="html"><![CDATA[<p>Hello World!!</p>
 ]]></content>
   </entry>
   

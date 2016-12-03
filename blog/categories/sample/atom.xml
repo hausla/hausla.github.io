@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Sample | Techtaste]]></title>
-  <link href="http://hausla.github.io/blog/categories/sample/atom.xml" rel="self"/>
-  <link href="http://hausla.github.io/"/>
-  <updated>2016-11-27T17:36:50+05:30</updated>
-  <id>http://hausla.github.io/</id>
+  <title><![CDATA[Category: Sample | Hausla]]></title>
+  <link href="http://hausla.info/blog/categories/sample/atom.xml" rel="self"/>
+  <link href="http://hausla.info/"/>
+  <updated>2016-12-03T09:53:38+05:30</updated>
+  <id>http://hausla.info/</id>
   <author>
-    <name><![CDATA[Chari]]></name>
+    <name><![CDATA[Hausla]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[This Is Sample Post]]></title>
-    <link href="http://hausla.github.io/blog/2016/11/27/temp/"/>
+    <link href="http://hausla.info/blog/2016/11/27/temp/"/>
     <updated>2016-11-27T00:09:06+05:30</updated>
-    <id>http://hausla.github.io/blog/2016/11/27/temp</id>
+    <id>http://hausla.info/blog/2016/11/27/temp</id>
     <content type="html"><![CDATA[<p>this is sample post</p>
 ]]></content>
   </entry>
